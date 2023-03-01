@@ -20,16 +20,16 @@ while 1:
     mental = random.randrange(1, 6)
     luck = random.randrange(1, 6)
     print(f"power ={power}, defense power = {mental}, escape = {luck}")
-    print("Retry?: a = Yes, b = No")
+    print("Retry?: y = Yes, n = No")
     A = input()
-    if A == "a":
+    if A == "y":
         continue
-    if A == "b":
-        print("\n Decided for sure?: a = Yes, b = No")
+    if A == "n":
+        print("\n Decided for sure?: y = Yes, n = No")
         B = input()
-        if B == "b":
+        if B == "n":
             continue
-        elif B == "a":
+        elif B == "y":
             print("\n You've been decided")
             print(f"""
         [Status]
